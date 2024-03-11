@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="title-div">
+            <h2 id="main-title">Predklad METAR a TAF správ</h2>
+        </div>
+        <div class="input-div">
+            <img src="./slovakia.png" alt="" id="sk-img">
+            <input type="range" min="1" max="2" value="1" id="lang-inp">
+            <img src="./united-kingdom.png" alt="" id="eng-img">
+            <input type="text" name="inp" id="inp">
+            <button id="submit-btn" type="button">Submit</button>
+        </div>
+        <div class="results-div">
+            <div class="error-mess-div">
+                <p id="err-mess"></p>
+            </div>
+            <div class="main-wrapper">
+                <div class="top-div">
+                    <p id="time">-</p>
+                    <p id="airport">-</p>
+                    <p id="temp">-</p>
+                </div>
+                <div class="center-div">
+                    <p id="visibility">-</p>
+                    <p id="cloudiness">-</p>
+                    <p>-</p>
+                </div>
+                <div class="bottom-div">
+                    <p id="wind-speed">-</p>
+                    <p id="wind-direction">-</p>
+                    <p id="pressure">-</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

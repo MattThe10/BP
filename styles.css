@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #E9F1FA;
+    color:#0077b6;
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#main-title {
+
+}
+
+.input-div {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+#eng-img, #sk-img {
+    height: 1.5rem;
+}
+
+#lang-inp {
+    width: 2rem;
+    outline: none;
+    transition: opacity .2s
+}
+
+#inp {
+    width: 15rem;
+    height: 1.5rem;
+    border: 1px solid #0077b6;
+}
+
+#submit-btn {
+    cursor: pointer;
+    border: none;
+    background: #0077b6;
+    color: #fff;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+.results-div {
+
+}
+
+.error-mess-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#err-mess {
+    color: red;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-div, .bottom-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#airport, #time {
+    font-weight: bold;
+    color: #0077b6;
+}
+
+#degrees {
+
+}
